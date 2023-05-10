@@ -1,0 +1,9 @@
+.quiz{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(#6849bd,#74276e,#af0ca2) ;    
+    align-items: center; /*container içindeki öğeleri yatayda hizalar*/
+    justify-content: center; /*container içindeki öğeleri dikeyde hizalar*/
+    display: flex;
+
+}

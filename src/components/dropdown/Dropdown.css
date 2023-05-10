@@ -1,0 +1,16 @@
+.dropdown{
+
+}
+
+.dropdown select{
+    border-radius:5px;
+    outline: none;
+    transition: 0.5s;
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+    border: 1px solid rgb(141, 141, 141);
+    height: 30px;
+}
+.dropdown select:hover{
+    scale: 1.03;
+}

@@ -1,0 +1,48 @@
+.introduce{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(#6849bd,#74276e,#af0ca2) ;    
+    align-items: center; /*container içindeki öğeleri yatayda hizalar*/
+    justify-content: center; /*container içindeki öğeleri dikeyde hizalar*/
+    display: flex;
+}
+
+
+
+.introduce-container{
+    max-width: 700px;
+    width: 100%;
+    background-color:white ;
+    display: flex;
+    flex-direction: column; /* ekran boyutu küçüldüğünde içindeki öğeleri dikeyde hizalar.*/
+    align-items: center;
+    justify-content: center;
+    padding:5%;
+    border-radius: 10px;
+    border: #af0ca2 2px solid;
+
+
+}
+
+.introduce-btn{
+    border: 2px solid #7152c5;
+    border-radius:5px;
+    padding: 5px 5px;
+    transition: 0.8s;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow:4px 2px 10px rgb(134, 134, 134);
+}
+
+.introduce-btn:hover{
+    scale: 1.08;
+    background: linear-gradient(#8867e4,#a03199,#c571c0);
+    box-shadow:5px 3px 10px rgb(83, 83, 83);
+    color: aliceblue;
+    cursor: pointer;
+}
