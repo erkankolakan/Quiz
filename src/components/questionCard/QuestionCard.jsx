@@ -13,7 +13,7 @@ const QuestionCard = ({ questionsData , score ,setScore , count , setCount , mod
         const checkAnswer = e.currentTarget.value === questionsData[count]?.correct_answer;
 
         if(checkAnswer){
-            setScore(score + 100)
+            setScore(score + 10)
         }
         setCount(count + 1)
         if(count == 9){
